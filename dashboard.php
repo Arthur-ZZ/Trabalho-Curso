@@ -66,6 +66,19 @@ $nivel = $_SESSION["nivel"];
                 </p>
 
             </div>
+            <div class="admin-area">
+
+    <h3>Produtos</h3>
+
+    <p>
+        Gerencie os produtos cadastrados no sistema.
+    </p>
+
+    <a href="produtos.php">
+        Tabela de Produtos
+    </a>
+
+</div>
 
             <?php if ($nivel == "admin") { ?>
 
